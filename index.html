@@ -7,36 +7,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Initial Commit</h1>
+    <div class="main">
+        <section class="left-section">
+            <div>
+                <div class="logo">ODIN</div>
+            </div>
+        </section>
+    
+        <section class="right-section">
 
-    <form action="#">
-        <fieldset>
-            <div>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" required>
+            <div class="statement">
+                <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+                <h1>You <em>know</em> you want to.</h1>
             </div>
-            <div>
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" required>
-            </div>
-            <div>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number" required>
-            </div>
-            <div>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required>
-            </div>
-            <div>
-                <label for="password-confirm">CONFIRM PASSWORD</label>
-                <input type="password" name="password-confirm" id="password-confirm" required>
-            </div>
-        </fieldset>
-        <button type="submit">Create Account</button>
-    </form>
+
+            <form class="form" action="#">
+                <fieldset class="fieldset">
+                    <h1>Let's do this!</h1>
+                    <div class="input-label">
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" required>
+                        </div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div>
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" name="password-confirm" id="password-confirm" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+
+            <span>Already have an accounts? <a href="#">Log in</a></span>
+        </section>
+    </div>
 </body>
 </html>

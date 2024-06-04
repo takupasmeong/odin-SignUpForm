@@ -1,4 +1,57 @@
-h1 {
+:root {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    height: inherit;
+}
+
+.left-section {
+    flex: 1 0 35%;
     background-color: aqua;
-    color: red;
+}
+
+.left-section>div>.logo {
+    background-color: lightyellow;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px 0;
+    margin-top: 150px;
+}
+
+.right-section {
+    flex: 1 0 65%;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.right-section>.statement {
+    position: relative;
+    bottom: 50px;
+}
+
+.right-section>.form>.fieldset {
+    margin: 0;
+}
+
+.form>.fieldset>.input-label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 10px 50px;
+}
+
+.input-label>div {
+    display: flex;
+    flex-direction: column;
 }
