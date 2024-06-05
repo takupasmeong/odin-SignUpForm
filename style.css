@@ -2,15 +2,13 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     margin: 0;
-    height: 100%;
 }
 
 .main {
     display: flex;
-    height: inherit;
+    min-height: 100vh;
 }
 
 .left-section {
@@ -18,12 +16,12 @@ body {
     background-color: aqua;
 }
 
-.left-section>div>.logo {
+.left-section>.logo-container {
     background-color: lightyellow;
     text-align: center;
     font-size: 3rem;
-    padding: 20px 0;
-    margin-top: 150px;
+    position: relative;
+    top: 25%;
 }
 
 .right-section {
