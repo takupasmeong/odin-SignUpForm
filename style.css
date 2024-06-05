@@ -20,11 +20,25 @@ body {
 }
 
 .left-section>.logo-container {
-    background-color: lightyellow;
-    text-align: center;
-    font-size: 3rem;
+    /* background-color: lightyellow; */
     position: relative;
     top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1e1e1e77;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.logo-container::before {
+    content: '';
+    background: url('assets/images/logo.png') no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 95px;
+    height: 127px;
 }
 
 .right-section {
