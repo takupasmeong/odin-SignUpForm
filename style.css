@@ -1,5 +1,6 @@
 :root {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -12,16 +13,19 @@ body {
 }
 
 .left-section {
+    position: relative;
     flex: 1 0 35%;
-    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
     background: url('assets/images/background.jpg') no-repeat;
     background-size: 100%;
-    position: relative;
 }
 
 .left-section>.logo-container {
-    /* background-color: lightyellow; */
-    position: relative;
+    position: absolute;
+    width: 100%;
     top: 25%;
     display: flex;
     justify-content: center;
@@ -39,6 +43,16 @@ body {
     display: inline-block;
     width: 95px;
     height: 127px;
+}
+
+.credit {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.credit>a {
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 .right-section {
