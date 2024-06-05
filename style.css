@@ -13,7 +13,10 @@ body {
 
 .left-section {
     flex: 1 0 35%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background: url('assets/images/background.jpg') no-repeat;
+    background-size: 100%;
+    position: relative;
 }
 
 .left-section>.logo-container {
